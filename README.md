@@ -17,13 +17,12 @@ Guide for pass AWS Devops Professional certification exam.
 - [CI/CD Concepts](./Automation/CICD.md)
 - [Deployment Strategies](./Automation/Deployment.md)
 - [Testing](./Automation/Testing.md)
-- [Artifacts](./Automation/Artifacts.md)
 
 <a name="IaC"></a>
 ## 2. Configuration Management and Infrastructure as Code
 ### What do i need to know?
 
-- AWS Cloudformation
+- [AWS Cloudformation](./IaC/Cloudformation.md)
 - AWS Elastic Beanstalk
 - AWS Config
 - AWS ECS & ECR

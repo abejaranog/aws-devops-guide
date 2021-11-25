@@ -72,3 +72,25 @@ See reference on: [Hooks Reference](https://docs.aws.amazon.com/codedeploy/lates
 
 
 ## Codepipeline
+
+Orchestrate all CI/CD Logic.
+
+- Each pipeline stage can create Artifacts
+- Artifacts are passed stored in S3 and passed to the next stage
+
+*Source Stage:*
+
+Can be triggered by Codecommit, Github, S3 or ECR. Change detection options is an Event or Poll for changes.
+If use SCM, you need to manage a pipeline for only 1 branch, so multibranching is not possible.
+
+---
+
+After source stage you need to create actions that can be Deploy, Build, Invoke, Manual Approve... etc
+
+You also can create custom action jobs using AWS Lambda to manage actions that predefined actions by CodePipeline can't do, like update DNS as example.
+
+Recommended lecture: [Codepipeline Blog](https://aws.amazon.com/blogs/devops/implementing-gitflow-using-aws-codepipeline-aws-codecommit-aws-codebuild-and-aws-codedeploy/)
+
+# CodeStar
+
+Integrated environment in that you quickly develop your application projects.

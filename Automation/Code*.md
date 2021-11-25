@@ -17,6 +17,7 @@ Fully managed build service from AWS. It compiles the code, run unit tests, prod
 - Output logs can be send to S3 or AWS Cloudwatch
 
 **Buildspec file**
+
 It's a yaml file that contains the configuration for the build. It's divided by phases.
 
 See reference on: [Buildspec Reference](https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html)
@@ -31,6 +32,7 @@ The UPLOAD_ARTIFACTS phase is always attempted, even if the BUILD phase fails.
 ```
 
 **Environment Variables**
+
 AWS Codebuild has pre-defined environment variables like AWS_REGION, AWS_ACCOUNT_ID or CODEBUILD_ID
 
 See Reference on: [Environment Variables Reference](https://docs.aws.amazon.com/codebuild/latest/userguide/build-env-ref-env-vars.html)
@@ -38,6 +40,7 @@ See Reference on: [Environment Variables Reference](https://docs.aws.amazon.com/
 Also you can insert your own environment variables in the _env_ statement in buildspec, using parameter store or in Buildspec configuration.
 
 **Artifacts**
+
 You can upload generated artifacts to a S3. This may be configured on buildspec file.
 
 ## CodeDeploy
@@ -53,13 +56,15 @@ Also make easier:
 - Avoid downtime during deployments
 - Handle full process without human intervention
 
-Steps:
+**Steps:**
+
 Source code + appspec file ->  Upload to Github or S3 -> Trigger Deployment -> Agent Poll for what to do -> Download appspec and source code in target.
 
 Codedeploy works following this steps:
 You must create a DeploymentGroup with target instances and after that launch a deployment to this deployment group.
 
 **Appspec file**
+
 It marks the hooks inside the deployment action. 
 
 See reference on: [Appspec Reference](https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file.html)

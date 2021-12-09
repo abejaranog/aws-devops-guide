@@ -23,7 +23,7 @@ Guide for pass AWS Devops Professional certification exam.
 ### What do i need to know?
 
 - [AWS Cloudformation](./IaC/Cloudformation.md)
-- AWS Elastic Beanstalk
+- [AWS Elastic Beanstalk](./IaC/ElasticBeanstalk.md)
 - AWS ECS & ECR
 - AWS Lambda
 - AWS OpsWorks

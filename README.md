@@ -25,9 +25,9 @@ Guide for pass AWS Devops Professional certification exam.
 - [AWS Cloudformation](./IaC/Cloudformation.md)
 - [AWS Elastic Beanstalk](./IaC/ElasticBeanstalk.md)
 - [AWS API Gateway](./IaC/APIGateway.md)
-- AWS ECS & ECR
+- [AWS ECS & ECR](./IaC/ECS.md)
 - [AWS Lambda](./IaC/Lambda.md)
-- AWS OpsWorks
+- [AWS OpsWorks](./IaC/OpsWorks.md)
 
 <a name="Monitoring"></a>
 ## 3. Monitoring & Logging
@@ -35,6 +35,7 @@ Guide for pass AWS Devops Professional certification exam.
 
 - AWS Cloudwatch
 - AWS X-Ray
+- AWS Cloudtrail
 
 <a name="Policies"></a>
 ## 4. Policies & Standard automation
@@ -51,7 +52,7 @@ Guide for pass AWS Devops Professional certification exam.
 <a name="Events"></a>
 ## 5. Incident and Event Response
 ### What do i need to know?
-- Guardduty
+- AWS Guardduty
 - AWS Inspector
 - AWS Kinesis
 

@@ -35,7 +35,8 @@ Guide for pass AWS Devops Professional certification exam.
 
 - AWS Cloudwatch
 - AWS X-Ray
-- AWS Cloudtrail
+- [AWS Cloudtrail](./Monitoring/Cloudtrail.md)
+- [AWS Kinesis](./Monitoring/Kinesis.md)
 
 <a name="Policies"></a>
 ## 4. Policies & Standard automation

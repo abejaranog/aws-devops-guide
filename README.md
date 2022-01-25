@@ -33,10 +33,11 @@ Guide for pass AWS Devops Professional certification exam.
 ## 3. Monitoring & Logging
 ### What do i need to know?
 
-- AWS Cloudwatch
-- AWS X-Ray
+- [AWS Cloudwatch](./Monitoring/Cloudwatch.md)
+- [AWS X-Ray](./Monitoring/Xray.md)
 - [AWS Cloudtrail](./Monitoring/Cloudtrail.md)
 - [AWS Kinesis](./Monitoring/Kinesis.md)
+- [AWS OpenSearch](./Monitoring/Opensearch.md)
 
 <a name="Policies"></a>
 ## 4. Policies & Standard automation
@@ -55,7 +56,6 @@ Guide for pass AWS Devops Professional certification exam.
 ### What do i need to know?
 - AWS Guardduty
 - AWS Inspector
-- AWS Kinesis
 
 <a name="HA"></a>
 ## 6. High Availability, Fault Tolerance, and Disaster Recover 

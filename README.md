@@ -43,13 +43,15 @@ Guide for pass AWS Devops Professional certification exam.
 ## 4. Policies & Standard automation
 ### What do i need to know?
 
-- AWS Service Catalog
-- AWS Config
-- AWS Trusted Advisor
+- [AWS Service Catalog](./Policies/ServiceCatalog.md)
+- [AWS Config](./Policies/Config.md)
+- [AWS Trusted Advisor](./Policies/TrustedAdvisor.md)
 - [Systems Manager](./Policies/SSM.md)
-- Secrets Manager
-- Control Tower & Organizations
-- AWS Macie
+- [Secrets Manager](./Policies/SecretsManager.md)
+- [Control Tower & Organizations](./Policies/Organizations.md)
+- [AWS Macie](./Policies/Macie.md)
+- [AWS Inspector](./Policies/Inspector.md)
+- [GuardDuty](./Policies/GuardDuty.md)
 
 <a name="Events"></a>
 ## 5. Incident and Event Response

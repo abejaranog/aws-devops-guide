@@ -1,0 +1,3 @@
+# GuardDuty
+
+## Automations

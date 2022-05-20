@@ -46,7 +46,7 @@ Guide for pass AWS Devops Professional certification exam.
 - AWS Service Catalog
 - AWS Config
 - AWS Trusted Advisor
-- Systems Manager
+- [Systems Manager](./Policies/SSM.md)
 - Secrets Manager
 - Control Tower & Organizations
 - AWS Macie

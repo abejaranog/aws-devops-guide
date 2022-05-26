@@ -65,3 +65,6 @@ Simplifies common maintenance and deployment tasks of EC2 instances and other AW
 ## Session Manager
 You can connect to EC2 instances on inventory using SSM-Agent and ssm-start session command.
 Is useful beacause all logins has a log register on SSM Console and you can view who log in to some EC2 instance.
+
+---------------
+[Go Home](../README.md)

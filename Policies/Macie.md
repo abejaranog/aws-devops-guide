@@ -6,4 +6,7 @@ Amazon Macie automates the discovery of sensitive data at scale and lowers the c
 ## Use Cases
 - Assessing your data privacy and security
 - Maintaining regulatory compliance
--  Identifying sensitive data in data migrations to S3
+- Identifying sensitive data in data migrations to S3
+
+---------------
+[Go Home](../README.md)

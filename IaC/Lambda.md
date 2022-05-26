@@ -71,3 +71,6 @@ It's very integrable with batch Jobs using AWS Batch.
 AWS Step Functions are based on state machines.
 
 See more on: [Step functions use cases](https://aws.amazon.com/es/step-functions/use-cases/)
+
+---------------
+[Go Home](../README.md)

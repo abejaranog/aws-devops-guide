@@ -72,3 +72,6 @@ You can auto-configure Cloudwatch Logs to send logs from ECS containers. Also yo
 Also you can install the cloudwatch agent in EC2 innstances to know the information about the instance running the container.
 
 Activating container insights you can view the metrics of any container isolated. It's good to troubleshoot a single container that presents an anomaly.
+
+---------------
+[Go Home](../README.md)

@@ -99,3 +99,6 @@ Recommended lecture: [Codepipeline Blog](https://aws.amazon.com/blogs/devops/imp
 # CodeStar
 
 Integrated environment in that you quickly develop your application projects.
+
+---------------
+[Go Home](../README.md)

@@ -198,3 +198,6 @@ CAPABILITY_IAM or CAPABILITY_NAMED_IAM for resources with custom names
 
 You can prevent the update of a stack using Stack Policies.
 Looks like an IAM Policy and you can put Allow or Deny statements based in actions and resources.
+
+---------------
+[Go Home](../README.md)

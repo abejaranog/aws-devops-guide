@@ -72,3 +72,6 @@ Kinesis producers:
 - Continuous: Real time
 - Pay for consumption rate
 - Can create streams out of the real-time queries
+
+---------------
+[Go Home](../README.md)

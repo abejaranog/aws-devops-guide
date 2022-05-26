@@ -41,3 +41,6 @@ Shutdown:
 This event occurs after indicates to OpsWorks Stacks to shut an instance down but before the associate EC2 instance is terminated.
 
 NOTE: Configure is the only event that occurs in all instances. The others are instance individually. Is useful to use to know the instance neighbours.
+
+---------------
+[Go Home](../README.md)

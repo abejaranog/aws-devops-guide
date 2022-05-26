@@ -28,3 +28,6 @@ Not available in on-prem instances using CodeDeploy
 ## Canary
 It's a blue/green progressive.
 Uses Route53 weighted round robin.
+
+---------------
+[Go Home](../README.md)

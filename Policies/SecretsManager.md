@@ -8,3 +8,6 @@ Secrets Manager enables you to replace hardcoded credentials in your code, inclu
 - Automatically rotate your secrets
 - Databases with fully configured and ready-to-use rotation support
 - Control access to secrets using resource based policies
+
+---------------
+[Go Home](../README.md)

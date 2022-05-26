@@ -26,3 +26,6 @@ An aggregator is an AWS Config resource type that collects AWS Config configurat
 Use an aggregator to view the resource configuration and compliance data recorded in AWS Config.
 
 Aggregators provide a read-only view into the source accounts and regions that the aggregator is authorized to view. Aggregators do not provide mutating access into the source account or region. For example, this means that you cannot deploy rules through an aggregator or pull snapshot files from the source account or region through an aggregator.
+
+---------------
+[Go Home](../README.md)

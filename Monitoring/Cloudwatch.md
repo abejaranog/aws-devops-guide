@@ -93,3 +93,6 @@ _NOTE: Read-only apis like List, Get or Describe are not supported by Cloudtrail
 
 S3 Events are totally unrelated with Cloudwatch Events.
 You need to create an SQS to be the destiny of S3 events, that are configured in S3 console or S3 API.
+
+---------------
+[Go Home](../README.md)

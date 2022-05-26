@@ -46,3 +46,6 @@ By default, API Gateway has throttling by 10000 request per second, but you can 
 ## Fronting Step-Functions
 
 API Gateway can be used to launch the Step Functions state machines.
+
+---------------
+[Go Home](../README.md)

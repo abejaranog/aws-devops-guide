@@ -7,3 +7,6 @@ Also ensure its usable and responds correctly to all kinds of expected inputs
 ### How can be performed?
 
 - Use Codebuild or similar tool to create test features.
+
+---------------
+[Go Home](../README.md)

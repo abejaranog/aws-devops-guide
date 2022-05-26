@@ -15,3 +15,5 @@ aws cloudtrail validate-logs
 
 Cross Account logging can be configured, modifying the bucket policy of destination S3, allowing the put object action from the target account.
 
+---------------
+[Go Home](../README.md)

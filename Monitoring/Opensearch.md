@@ -17,3 +17,6 @@ Is used with the other services of ELK Stack. (Logstash and Kibana)
 - DynamoDB -> DynamoDB Stream -> Lambda -> ES -> API Search Call
 
 - Cloudwatch Logs -> Subscription Filter -> Lambda or Firehose -> ES
+
+---------------
+[Go Home](../README.md)

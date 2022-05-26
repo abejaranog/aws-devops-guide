@@ -4,4 +4,7 @@ X-Ray is a tracing service that collects data about requests that your applicati
 
 Data can be sent using the X-Ray sdk or X-Ray daemon.
 
-A DevOps common use case of X-Ray is to using combined Cloudwatch and SNS to notify when X-Ray detects elevated levels of latency or errors in your application trace
+A DevOps common use case of X-Ray is to using combined Cloudwatch and SNS to notify when X-Ray detects elevated levels of latency or errors in your application trace.
+
+---------------
+[Go Home](../README.md)

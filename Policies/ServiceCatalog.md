@@ -27,3 +27,6 @@ Service catalog is composed by a Portfolio that has the list of products you hav
 Products are created by a cloudformation template and it has a version associated.
 
 Provisioned products are products that are launched by an user.
+
+---------------
+[Go Home](../README.md)

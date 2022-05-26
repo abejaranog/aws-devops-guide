@@ -18,3 +18,6 @@
 ## Continuous deployment
 
 Like continuous delivery but all automated. Code is deployed automatically to production.
+
+---------------
+[Go Home](../README.md)

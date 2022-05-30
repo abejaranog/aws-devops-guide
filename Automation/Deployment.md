@@ -18,6 +18,9 @@ When new instances are deployed, substitute older versions that keep alive.
 Deploy instances in batch for N number of instances in each stage.
 The deployment during all the stages needed to rolling all instances.
 
+## Immutable
+Available on Elastic Beanstalk.
+Immutable deployments perform an immutable update to launch a full set of new instances running the new version of the application in a separate Auto Scaling group, alongside the instances running the old version. Immutable deployments can prevent issues caused by partially completed rolling deployments. If the new instances don't pass health checks, Elastic Beanstalk terminates them, leaving the original instances untouched.
 ## Blue/Green
 Deploys paralelly 2 environments, blue and green, and switch between this.
 

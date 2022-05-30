@@ -168,6 +168,8 @@ To troubleshoot is recommended the DO_NOTHING option.
 Are stacks as part of ohter stacks.
 They allow to isolate repeated patterns or common components in separate stacks.
 
+Although you can integrate AWS Systems Manager Parameter Store with CloudFormation, this service is more suitable to store data such as passwords, database strings, and license codes as parameter values but not resource outputs. You should create a cross-stack reference to export resources from one AWS CloudFormation stack to another.
+
 **ChangeSets**
 
 When you update a stack you need to know what changes before it happens for greater confidence.

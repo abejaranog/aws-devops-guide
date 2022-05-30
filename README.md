@@ -50,21 +50,20 @@ Guide for pass AWS Devops Professional certification exam.
 - [Secrets Manager](./Policies/SecretsManager.md)
 - [Control Tower & Organizations](./Policies/Organizations.md)
 - [AWS Macie](./Policies/Macie.md)
-- [AWS Inspector](./Policies/Inspector.md)
-- [GuardDuty](./Policies/GuardDuty.md)
+
 
 <a name="Events"></a>
 ## 5. Incident and Event Response
 ### What do i need to know?
-- AWS Guardduty
-- AWS Inspector
+- [AWS Inspector](./Incidents/Inspector.md)
+- [GuardDuty](./Incidents/GuardDuty.md)
 
 <a name="HA"></a>
 ## 6. High Availability, Fault Tolerance, and Disaster Recover 
 ### What do i need to know?
 - AWS SSO
 - AWS Cloudfront
-- Autoscaling & Lifecycle Hooks
+- [Autoscaling & Lifecycle Hooks](./HA/Autoscaling.md)
 - Route53 & DNS Concepts
 - AWS RDS & Aurora
 - AWS DynamoDB

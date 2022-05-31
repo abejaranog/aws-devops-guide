@@ -66,7 +66,8 @@ Guide for pass AWS Devops Professional certification exam.
 - [Autoscaling & Lifecycle Hooks](./HA/Autoscaling.md)
 - Route53 & DNS Concepts
 - AWS RDS & Aurora
-- AWS DynamoDB
+- [AWS DynamoDB](./HA/DynamoDB.md)
+
 
 ## BONUS SERVICES
 ### What do i need to know superficially?

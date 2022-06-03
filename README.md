@@ -61,11 +61,9 @@ Guide for pass AWS Devops Professional certification exam.
 <a name="HA"></a>
 ## 6. High Availability, Fault Tolerance, and Disaster Recover 
 ### What do i need to know?
-- AWS SSO
-- AWS Cloudfront
 - [Autoscaling & Lifecycle Hooks](./HA/Autoscaling.md)
-- Route53 & DNS Concepts
-- AWS RDS & Aurora
+- [Route53 & DNS Concepts](./HA/Route53.md)
+- [AWS RDS & Aurora](./HA/RDS.md)
 - [AWS DynamoDB](./HA/DynamoDB.md)
 
 

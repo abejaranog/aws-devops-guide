@@ -69,3 +69,6 @@ To fail over to a secondary cluster after an unplanned outage in the primary Reg
 - This Aurora DB cluster becomes the primary cluster of a new Aurora global database when you start adding Regions to it in the next step.
 - Add an AWS Region to the DB cluster. When you do this, the replication process from primary to secondary begins.
 - Add more AWS Regions as needed to recreate the topology needed to support your application.
+
+---------------
+[Go Home](../README.md)

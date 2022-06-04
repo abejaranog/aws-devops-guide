@@ -10,6 +10,7 @@ Features:
 - Resource Groups
 - Insights
 - Parameter Store
+- Compliance
 - Actions
   -  Automation
   -  Session Manager
@@ -66,5 +67,7 @@ Simplifies common maintenance and deployment tasks of EC2 instances and other AW
 You can connect to EC2 instances on inventory using SSM-Agent and ssm-start session command.
 Is useful beacause all logins has a log register on SSM Console and you can view who log in to some EC2 instance.
 
+## Compliance
+You can use Compliance, a capability of AWS Systems Manager, to scan your fleet of managed nodes for patch compliance and configuration inconsistencies. You can collect and aggregate data from multiple AWS accounts and Regions, and then drill down into specific resources that aren’t compliant. By default, Compliance displays current compliance data about patching in Patch Manager and associations in State Manager. 
 ---------------
 [Go Home](../README.md)

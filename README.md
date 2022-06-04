@@ -69,11 +69,9 @@ Guide for pass AWS Devops Professional certification exam.
 
 ## BONUS SERVICES
 ### What do i need to know superficially?
-- Tagging
-- EFS, EBS encryption
-- Elasticsearch
-- Step Functions Best practices
-- Direct Connect
+- [Elasticsearch](./Miscellaneous/Elasticsearch.md)
+- [Step Functions Best practices](./Miscellaneous/StepFunctions.md)
+- [Direct Connect](./Miscellaneous/DirectConnect.md)
 - Dead letter queues
 - Server Migration Services
 

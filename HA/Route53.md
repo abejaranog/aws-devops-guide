@@ -22,3 +22,6 @@ Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web 
 - Multivalue answer routing policy – Use when you want Route 53 to respond to DNS queries with up to eight healthy records selected at random.
 
 - Weighted routing policy – Use to route traffic to multiple resources in proportions that you specify.
+
+---------------
+[Go Home](../README.md)

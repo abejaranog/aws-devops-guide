@@ -73,5 +73,9 @@ Also you can install the cloudwatch agent in EC2 innstances to know the informat
 
 Activating container insights you can view the metrics of any container isolated. It's good to troubleshoot a single container that presents an anomaly.
 
+If you are using the Fargate launch type for your tasks, this allows you to view the logs from your containers. If you are using the EC2 launch type, this enables you to view different logs from your containers in one convenient location, and it prevents your container logs from taking up disk space on your container instances.
+
+The type of information that is logged by the containers in your task depends mostly on their ENTRYPOINT command. By default, the logs that are captured show the command output that you would normally see in an interactive terminal if you ran the container locally, which are the STDOUT and STDERR I/O streams. The awslogs log driver simply passes these logs from Docker to CloudWatch Logs.
+
 ---------------
 [Go Home](../README.md)

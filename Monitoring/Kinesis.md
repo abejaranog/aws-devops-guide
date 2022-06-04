@@ -39,6 +39,7 @@ Kinesis producers:
  Kinesis Consumer Libraries uses DynamoDB to checkpoint offsets and track other workers and share the work amongst shards.
  Great for reading in a distributed manner.
 
+Using the Amazon Kinesis Adapter is the recommended way to consume streams from Amazon DynamoDB. The DynamoDB Streams API is intentionally similar to that of Kinesis Data Streams, a service for real-time processing of streaming data at massive scale. In both services, data streams are composed of shards, which are containers for stream records. Both services' APIs contain ListStreams, DescribeStream, GetShards, and GetShardIterator operations. (Although these DynamoDB Streams actions are similar to their counterparts in Kinesis Data Streams, they are not 100 percent identical.)
  ## Kinesis Firehose
 
  - Fully managed service, no administration.

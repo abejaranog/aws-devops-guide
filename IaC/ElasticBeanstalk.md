@@ -37,9 +37,9 @@ If you have more than one JAR file in the root of your application source bundle
 
 We recommend that you always provide a Procfile in the source bundle alongside your application. This way you precisely control which processes Elastic Beanstalk runs for your application and which arguments these processes receive.
 
-**Rolling Update Strategy**
+**Deployments Strategy**
 
-- All at once (Not additional cost)
+- All at once (Default, not additional cost)
 - Rolling (Not additional cost)
 - Rolling with additional batches (First add instances before remove olders) (Small additional cost)
 - Immutable (Similar to blue/green, but managed by elastic beanstalk and using temporal ASG, changing instances between ASG with zero downtime) (High cost due to double capacity)

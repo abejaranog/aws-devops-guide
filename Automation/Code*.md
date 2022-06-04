@@ -63,7 +63,7 @@ Source code + appspec file ->  Upload to Github or S3 -> Trigger Deployment -> A
 Codedeploy works following this steps:
 You must create a DeploymentGroup with target instances and after that launch a deployment to this deployment group.
 
-**Appspec file**
+**Appspec file** **(TOO MUCH IMPORTANT)**
 
 It marks the hooks inside the deployment action. 
 
@@ -92,9 +92,24 @@ If use SCM, you need to manage a pipeline for only 1 branch, so multibranching i
 
 After source stage you need to create actions that can be Deploy, Build, Invoke, Manual Approve... etc
 
-You also can create custom action jobs using AWS Lambda to manage actions that predefined actions by CodePipeline can't do, like update DNS as example.
+You can create Invoke action jobs using AWS Lambda to manage actions that predefined actions by CodePipeline can't do, like update DNS as example.
+
+Also, AWS CodePipeline includes a number of actions that help you configure build, test, and deploy resources for your automated release process. If your release process includes activities that are not included in the default actions, such as an internally developed build process or a test suite, you can create a custom action for that purpose and include it in your pipeline. You can use the AWS CLI to create custom actions in pipelines associated with your AWS account.
+
+You can create custom actions for the following AWS CodePipeline action categories:
+
+- A custom build action that builds or transforms the items
+- A custom deploy action that deploys items to one or more servers, websites, or repositories
+- A custom test action that configures and runs automated tests
+- A custom invoke action that runs functions
+
+When you create a custom action, you must also create a job worker that will poll CodePipeline for job requests for this custom action, execute the job, and return the status result to CodePipeline. This job worker can be located on any computer or resource as long as it has access to the public endpoint for CodePipeline. To easily manage access and security, consider hosting your job worker on an Amazon EC2 instance.
+The following diagram shows a high-level view of a pipeline that includes a custom build action:
+
+![Diagram](https://docs.aws.amazon.com/codepipeline/latest/userguide/images/PipelineCustomActionCS.png)
 
 Recommended lecture: [Codepipeline Blog](https://aws.amazon.com/blogs/devops/implementing-gitflow-using-aws-codepipeline-aws-codecommit-aws-codebuild-and-aws-codedeploy/)
+
 
 # CodeStar
 

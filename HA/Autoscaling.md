@@ -61,3 +61,6 @@ Both apply only when you do a change on Launch Template/Configuration or VPC Zon
 - Rolling: Adding new instances with new version and remove olds.
 - Replace: Create a new Autoscaling Group and switch the target group.
 - Blue/Green: Create a new environment(ASG, TG and ASG) and switch between it.
+
+---------------
+[Go Home](../README.md)

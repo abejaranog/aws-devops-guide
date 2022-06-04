@@ -80,3 +80,5 @@ Guide for pass AWS Devops Professional certification exam.
 - [AWS Devops Guide](https://d1.awsstatic.com/training-and-certification/docs-devops-pro/AWS-Certified-DevOps-Engineer-Professional_Exam-Guide.pdf)
 
 - [AWS Devops Introduction](https://d1.awsstatic.com/whitepapers/AWS_DevOps.pdf)
+
+- [AWS Certified Devops Professional - Test Exam Questions](https://d1.awsstatic.com/training-and-certification/docs-devops-pro/AWS-Certified-DevOps-Engineer-Professional_Sample-Questions.pdf)

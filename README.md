@@ -72,8 +72,8 @@ Guide for pass AWS Devops Professional certification exam.
 - [Elasticsearch](./Miscellaneous/Elasticsearch.md)
 - [Step Functions Best practices](./Miscellaneous/StepFunctions.md)
 - [Direct Connect](./Miscellaneous/DirectConnect.md)
-- Dead letter queues
-- Server Migration Services
+- [Dead letter queues](./Miscellaneous/DLQ.md)
+- [Server Migration Services](./Miscellaneous/ServerMigration.md)
 
 ## Additional Resources
 

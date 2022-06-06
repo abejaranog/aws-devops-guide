@@ -74,6 +74,7 @@ Guide for pass AWS Devops Professional certification exam.
 - [Direct Connect](./Miscellaneous/DirectConnect.md)
 - [Dead letter queues](./Miscellaneous/DLQ.md)
 - [Server Migration Services](./Miscellaneous/ServerMigration.md)
+- [Cloudfront](./Miscellaneous/CloudFront.md)
 
 ## Additional Resources
 

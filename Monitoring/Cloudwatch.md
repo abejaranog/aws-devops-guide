@@ -91,8 +91,42 @@ There are Scheduled events, that can provide us a schedule trigger for services 
 To intercept API calls you need to integrate events with Cloudtrail API Calls event type. 
 _NOTE: Read-only apis like List, Get or Describe are not supported by Cloudtrail API Calls_
 
+You can configure the following as targets for Events:
+
+- API destination
+- API Gateway
+- Batch job queue
+- CloudWatch group
+- CodeBuild project
+- CodePipeline
+- EC2 CreateSnapshot API call
+- EC2 Image Builder
+- EC2 RebootInstances API call
+- EC2 StopInstances API call
+- EC2 TerminateInstances API call
+- ECS task
+- Event bus
+- Firehose delivery stream
+- Glue workflow
+- Incident Manager response plan
+- Inspector assessment template
+- Kinesis stream
+- Lambda function
+- Redshift cluster
+- SageMaker Pipeline
+- SNS topic
+- SQS queue
+- Step Functions state machine
+- Systems Manager Automation
+- Systems Manager Run Command
+
+
 S3 Events are totally unrelated with Cloudwatch Events.
-You need to create an SQS to be the destiny of S3 events, that are configured in S3 console or S3 API.
+Amazon S3 can send event notification messages to the following destinations. You specify the Amazon Resource Name (ARN) value of these destinations in the notification configuration.
+
+- Amazon Simple Notification Service (Amazon SNS) topics
+- Amazon Simple Queue Service (Amazon SQS) queues
+- AWS Lambda function
 
 ---------------
 [Go Home](../README.md)

@@ -47,5 +47,9 @@ By default, API Gateway has throttling by 10000 request per second, but you can 
 
 API Gateway can be used to launch the Step Functions state machines.
 
+## WAF
+
+You can use AWS WAF to protect your API Gateway API from common web exploits, such as SQL injection and cross-site scripting (XSS) attacks. These could affect API availability and performance, compromise security, or consume excessive resources. For example, you can create rules to allow or block requests from specified IP address ranges, requests from CIDR blocks, requests that originate from a specific country or region, requests that contain malicious SQL code, or requests that contain malicious script.
+
 ---------------
 [Go Home](../README.md)

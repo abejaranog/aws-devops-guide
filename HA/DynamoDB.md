@@ -12,6 +12,8 @@ Amazon DynamoDB provides fast access to items in a table by specifying primary k
 
 A secondary index is a data structure that contains a subset of attributes from a table, along with an alternate key to support Query operations. You can retrieve data from the index using a Query, in much the same way as you use Query with a table.
 
+Local secondary indexes are created at the same time that you create a table. You cannot add a local secondary index to an existing table, nor can you delete any local secondary indexes that currently exist.
+
 ## Patterns
 S3 Metadata Index -> Use case: API for Object Metadata.
 

@@ -57,6 +57,7 @@ Guide for pass AWS Devops Professional certification exam.
 ### What do i need to know?
 - [AWS Inspector](./Incidents/Inspector.md)
 - [GuardDuty](./Incidents/GuardDuty.md)
+- [AWS WAF](./Incidents/Waf.md)
 
 <a name="HA"></a>
 ## 6. High Availability, Fault Tolerance, and Disaster Recover 
